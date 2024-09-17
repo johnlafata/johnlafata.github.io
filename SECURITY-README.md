@@ -10,6 +10,6 @@ I'm also looking at this to see if this is an even better solution.
 
 https://docs.github.com/en/code-security/secret-scanning/introduction/about-push-protection
 
-Turns out that secret scanning and push protection are enabled by default.  
+Turns out that secret scanning and push protection are enabled by default if you create a public git repo.  
 
 ![pushProtection](images/pushProtectionAndSecretScanning.png)
