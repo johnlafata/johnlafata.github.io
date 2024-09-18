@@ -1,18 +1,24 @@
 https://github.com/kubernetes-sigs/kind
 
-#on Mac
+# on Mac
+```bash
 brew install kind
-
 kind create cluster
 kind delete cluster
 
 kind get clusters
+```
 
-#on Linux
+# on Linux
+```bash
 $ ssh ubuntu@192.168.86.23
-## how to install??? `brew install kind` again?
+## how to install??? 
+```bash
+brew install kind` again?
+```
 
-#create cluster and attach to tmc
+# create cluster 
+```bash
 $ kind get clusters
 No kind clusters found.
 
@@ -35,3 +41,4 @@ $ kind get kubeconfig >~/.kube/config
 Or
 $ kind get kubeconfig >>~/.kube/config
 $ k config use-context kind-kind
+```

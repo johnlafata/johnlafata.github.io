@@ -3,7 +3,9 @@
 https://github.com/awslabs/git-secrets
 
 #### installation on mac
+```bash
 brew install git-secrets
+```
 
 #### to ensure a git repository is scanned for secrets on each commit:
 
