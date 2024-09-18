@@ -40,3 +40,6 @@ Add custom providers to scan for security credentials.
 ```bash
 git secrets --add-provider -- cat /path/to/secret/file/patterns
 ```
+
+
+[more reading on git secrets](gitSecretsRecommendedReading.md)
