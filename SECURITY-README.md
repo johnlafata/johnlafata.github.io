@@ -2,7 +2,7 @@ One of the first things I want do to is make sure I don't accidently commit any 
 
 https://github.com/awslabs/git-secrets
 
-[See more of my exercize with git-secrets here.](tools/code/gitgSecrets.md)
+[See more of my exercize with git-secrets here.](tools/code/gitSecrets.md)
 
 So git-secrets is great, it scans and finds AWS related secrets by default, but I really want a more comprehensive scan, which would require me to add more patterns to scan for.  I'll be looking for common credential patterns to add to sthis
 
