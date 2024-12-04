@@ -1,8 +1,13 @@
-# managing python environments with pyenv, like java's sdkman
-# pyenv is a simple python version management tool
-# reference: https://github.com/pyenv/pyenv
+# Installing and managing python environments with pyenv
 
-# setup:
+### managing python environments with pyenv
+As a java developer I've used SDKMan to manage java versions for application development.  I've found that pyenv is a similar tool for managing python versions.  I'm going to use pyenv to manage python versions for my python applications.
+
+pyenv is a simple python version management tool
+
+reference: https://github.com/pyenv/pyenv
+
+### setup:
 ```
 brew update
 brew install pyenv
