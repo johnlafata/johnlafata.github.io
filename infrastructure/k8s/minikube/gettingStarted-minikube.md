@@ -48,9 +48,11 @@ minikube start
 ```
 
 ## to reconfigure with different cpu or memory settings
+```bash
 minikube stop
 minikube delete
 
 minikube kubectl
 
 minikube start  --cpus='4'   --memory=12200MB
+```
