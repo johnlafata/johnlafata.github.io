@@ -5,6 +5,6 @@ I'm going to start with AWS Lambda, but I'm also going to look at AWS Bedrock, w
 I want to implement an Infrastructure as Code model, deployed via GITOps.
 
 To start out, I'm a control plane on a minikube cluster to bootstrap a more robust dev ops process
-[Here's my setup for Crossplane on minikube](./docs/devops/DEVOPS_CROSSPLANE_CONTROL_PLANE.md)
+[Here's my setup for Crossplane on minikube](./DEVOPS_CROSSPLANE_CONTROL_PLANE.md)
 
 
