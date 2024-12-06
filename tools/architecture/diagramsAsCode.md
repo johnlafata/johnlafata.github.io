@@ -10,3 +10,6 @@ brew install graphviz
 pip install diagrams
 
 ```
+
+### example repo:
+https://github.com/johnlafata/diagrams-as-code
