@@ -1,7 +1,7 @@
-# My Studio
-This repo is where I am sharing my thoughts and experience as a cloud architect.   I'm gradually going to release projects, experiments, and learnings here.  
+# Developer Experience Workshop
+This repo presents tasks undertaken to identify and document best practices for developing, deploying, and managing applications in the cloud.  The goal is to provide a guide to follow when working on cloud-based projects.
 
-Some sample topics may include containerizing a legacy application, deploying an inference application, migrating code to a cloud ready architecture, or automating infrastructure provisioning.   
+The tasks are intended to reflect real-world problems such as containerizing a legacy application, deploying an inference application to the cloud, migrating code to a cloud ready architecture, or automating infrastructure provisioning.   
 
 ---
 
@@ -10,7 +10,7 @@ Some sample topics may include containerizing a legacy application, deploying an
 
 This link presents my evaluation of github hooks for [secret scanning](./doc/security/REPO-SECURITY-README.md). I'm going to use this as a starting point for protecting myself from accidentally deploying secrets or tokens to my repos.
 
-### Next, integrate with a secrets manager to make things work
+### Integrate with a secrets manager to make things work
 
 While working on my laptop, I currently am using environment variables stored on my local desktop to specify secrets, in time I will incorporate a secrets manager.  
 
@@ -23,10 +23,9 @@ I'm going to start with AWS Cognito, but I'm also going to look at Okta and Auth
 
 Here are some notes on the application deployment tests I am working on. [DevOps](./doc/devops/INTRO.md)
 
-
 ## Demo apps
 
-Below are a few applications that I'm working on to document my learning and experience.  When applicable, I'll add architecture documents for the applications using [diagramsAsCode](./tools/architecture/diagramsAsCode.md) to help me visualize the architecture.
+Below are a few applications that I'm using as examples to document the exercises needed .  When applicable, I'll add architecture documents for the applications using [diagramsAsCode](./tools/architecture/diagramsAsCode.md) to help me visualize the architecture.
 
 **Account Planning App**
 
