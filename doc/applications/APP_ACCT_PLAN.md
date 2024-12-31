@@ -17,7 +17,7 @@ Here's a few screenshots showing how the account planning application works:
 
 2. Specify Chat parameters to influence the token processing
 
-![Account Planning App](../../images/app-inference-account-planning/2-specifyChatbltParameters.png)
+![Account Planning App](../../images/app-inference-account-planning/2-specifyChatbotParameters.png)
 
 3. submit your request
 
