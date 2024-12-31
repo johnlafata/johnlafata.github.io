@@ -4,14 +4,12 @@ This repo presents tasks undertaken to identify and document best practices for 
 The tasks are intended to reflect real-world problems such as containerizing a legacy application, deploying an inference application to the cloud, migrating code to a cloud ready architecture, or automating infrastructure provisioning.   
 
 ---
-
 ## Baseline Development Infrastructure
 ### Repo Security
 
 This link presents my evaluation of github hooks for [secret scanning](./doc/security/REPO-SECURITY-README.md). I'm going to use this as a starting point for protecting myself from accidentally deploying secrets or tokens to my repos.
 
 ### Integrate with a secrets manager to make things work
-
 While working on my laptop, I currently am using environment variables stored on my local desktop to specify secrets, in time I will incorporate a secrets manager.  
 
 ### Identity management
@@ -20,7 +18,6 @@ When I deploy to the cloud I'd like to ensure that I have a good identity manage
 I'm going to start with AWS Cognito, but I'm also going to look at Okta and Auth0.  I'm going to use the AWS Cognito SDK to help me with this.
 
 ## DevSecOps
-
 Here are some notes on the application deployment tests I am working on. [DevOps](./doc/devops/INTRO.md)
 
 ## Demo apps
