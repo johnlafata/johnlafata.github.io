@@ -30,6 +30,10 @@ A very simple chatbot app to recommend an account plan based on metrics associat
 
 Here's a link to page where I am tracking the development progress for this application [My LLM based account planning application](./doc/applications/APP_ACCT_PLAN.md)
 
+**RAG Document processing application**
+
+A chatbot that processes RAG documents and allows the user to request analysis of the document.  This is a simple python app using gradio for a UI and langchain to call a choice of foundation models to analyze the document.   Here's a link to page where I am tracking the development progress for this application [Document Processing Application](./doc/applications/APP_RAG_DOCUMENT_PROCESSING.md)
+
 **Product Conversational Knowledgebase app**
 
 A chatbot functioning as a research assistant on product information.  This is a more complex python app using gradio for a UI and [langchain](./tools/code/ai/langchain.md) to call a choice of foundation models to provide product information.  I'm using llama-index and nVidia NEMO libraries to help with training and fine-tuning.   The application leverages tool calls to gather unstructured data and then leverages the llm to structure it into a [Pydantic](./tools/code/language/python/pydantic.md) object that we'll store in a vector database.
