@@ -11,6 +11,9 @@ reference: https://github.com/pyenv/pyenv
 ```
 brew update
 brew install pyenv
+```
+
+### install and use python 3.10
 pyenv install 3.10
 pyenv global 3.10.15
 pyenv which python
@@ -18,4 +21,10 @@ pyenv exec python --version
 
 alias python="pyenv exec python"
 alias pip="pyenv exec pip"
+```
+
+### install and use python 3.13.0
+```
+pyenv install 3.13.0
+pyenv global 3.13.0
 ```
