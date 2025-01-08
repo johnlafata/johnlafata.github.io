@@ -1,6 +1,6 @@
 Crossplane is a Kubernetes add-on that allows you to manage cloud infrastructure using Kubernetes.  
 
-I'm going to create a control plane on [minikube](../../infrastructure/k8s/minikube/gettingStarted-minikube.md) to start but migrate the control plane to a cloud provider when I am ready to scale it up.
+I'm going to create a control plane on [minikube](../../infrastructure/k8s/minikube/gettingStarted-minikube.md) to start, but intend to migrate the control plane to a cloud provider when I am ready to scale it up.
 
 I want to be able to create test accounts automatically for development and demo environments and destroy them when I'm done with them.   
 
@@ -19,9 +19,11 @@ Create a admin profile.
 Decide on a structure for service accounts.  Should I setup a unique service account for each applications or for each resources type or the combination of both?
 
 
+
 # Some references for crossplane providers that might be useful 
 ### crossplane AWS provider
 https://docs.crossplane.io/latest/getting-started/provider-aws/
+
 
 # Crossplane AWS provider authentication library (manage resources on AWS)
 https://github.com/crossplane-contrib/provider-aws/blob/master/AUTHENTICATION.md
