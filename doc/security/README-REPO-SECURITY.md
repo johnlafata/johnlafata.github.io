@@ -1,7 +1,7 @@
 In order to make sure I don't accidentally commit any secrets to this repo, so I'm going to explore how to use git-secrets to prevent that.
 
 ### git secrets
-https://github.com/awslabs/git-secrets
+This is a tool that scans to make sure AWS credentials are not in a repository.
 
 [See more of my exercise with git-secrets here.](../../tools/code/secrets/gitSecrets.md)
 
