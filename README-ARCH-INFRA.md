@@ -1,7 +1,15 @@
-# Infrastructure
-This page documents the infrastructure management tasks.
+# Application Architecture and Infrastructure Management
 
-I think the best practice to follow is to leverage an Infrastructure As Code model.  This will allow me to manage my infrastructure in a repeatable and consistent way.  I'm going to use Terraform to manage my infrastructure.
+## Application Architecture
+The following presents a typical GEN AI application Architecture.
+
+![Typical Gen AI Application Architecture](../../images/knowledgeBase-application.png)
+
+## Infrastructure
+This section documents the infrastructure management
+
+Infrastructure As Code model.  Using Terraform to manage infrastructure provisioned on AWS lambda, AWS API Gateway and AWS Fargate.
+
 
 ## Baseline Development Infrastructure
 ### Repo Security
@@ -16,21 +24,5 @@ When I deploy to the cloud I'd like to ensure that I have a good identity manage
 
 I'm going to start with AWS Cognito, but I'm also going to look at Okta and Auth0.  
 
-# Cloud Infrastructure
 
-## AWS
-
-### Network
-
-### Compute
-
-### Storage
-
-## Azure
-
-### Network
-
-### Compute
-
-### Storage
 
