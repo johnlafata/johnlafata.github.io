@@ -1,19 +1,17 @@
-# Developer Experience Workshop
-This repo presents tasks undertaken to identify and document best practices for developing, deploying, and managing applications.  The goal is to provide a guide to follow when working on new application development projects.
+# Gen AI Accelerator Studio
+This repo presents tasks undertaken to identify and document best practices for developing, deploying, and managing Gen AI applications.  The goal is to provide project templates or scaffolding to expedite development projects.
 
-The tasks are intended to reflect real-world problems such as containerizing a legacy application, deploying an inference application to the cloud, migrating code to a cloud ready architecture, or automating infrastructure provisioning.   
+This repo will present templates for real-world use cases for Gen AI applications.  
 
-The tasks are organized into the following categories:
+## Application Scaffolding
+Sample applications.
 
-## Application Development
-Some sample applications.
+[Application Development](./README-APP-SCAFFOLDING.md)
 
-[Application Development](./README-APP-DEVELOPMENT.md)
-
-## Infrastructure Management
+## Application Architecture and Infrastructure Management
 Notes on Infrastucture Management
 
-[Infrastructure Management](./README-INFRASTRUCTURE.md)
+[Infrastructure Management](./README-ARCH-INFRA.md)
 
 ## DevOps
 Here are some notes on the application deployment tests I am working on. 

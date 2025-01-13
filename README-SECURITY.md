@@ -8,3 +8,9 @@ I'm going to start with a few basic things to consider.
 
 ## Secure your secrets
 [Secure your secrets](./doc/security/README-SECRETS-MANAGER.md)
+
+## Guardrails
+[Guardrails](./doc/security/README-GUARDRAILS.md)
+
+## Observaability
+[Observability](./doc/security/README-OBSERVABILITY.md)

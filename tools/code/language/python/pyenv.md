@@ -28,4 +28,7 @@ alias pip="pyenv exec pip"
 ```
 pyenv install 3.13.0
 pyenv global 3.13.0
+alias python="pyenv exec python"
+alias pip="pyenv exec pip"
+
 ```
