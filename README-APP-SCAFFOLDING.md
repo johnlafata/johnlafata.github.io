@@ -1,4 +1,4 @@
-# Sample Apps
+# Application Templates
 
 Below are a few applications that I'm using as examples to document the exercises needed .  When applicable, I'll add architecture documents for the applications using [diagramsAsCode](./tools/architecture/diagramsAsCode.md) to help me visualize the architecture.
 
