@@ -1,6 +1,6 @@
 My account plan demo app takes input in a number of categories about the current state of the account and suggests a strategy for state variables that are less than ideal. It's a very simple generative AI application, laying the groundwork for something more complicated later.
 
-Built with Python and Gradio to leverage langchain libraries for llama 3.2 and openai gpt 4 functional models on my laptop.    
+Built with Python and Gradio to leverage langchain libraries for Ollama's llama 3.2, OpenAI GPT 4.0, Anthropic Claude, Anthropic Haiku and Groq using Llama3.3 models functional models on my laptop.    
 
 Currently, this is a pilot that runs on my macbook pro and deploys on AWS fargate, look forward to the  following improvements:
 
