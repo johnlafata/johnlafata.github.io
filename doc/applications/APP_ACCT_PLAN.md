@@ -2,7 +2,7 @@ My account plan demo app takes input in a number of categories about the current
 
 Built with Python and Gradio to leverage langchain libraries for Ollama's llama 3.2, OpenAI GPT 4.0, Anthropic Claude, Anthropic Haiku and Groq using Llama3.3 foundation models to run on my laptop and on AWS fargate.
 
-Currently, this is a pilot that runs on my macbook pro and AWS Fargate, kee posted for th following updates:
+Currently, this is a pilot that runs on my macbook pro and AWS Fargate, keep posted for th following updates:
 
 1. require a login with AWS Cognito on AWS deployments
 2. make the application multi-tenanted to allow multiple users to use it simultaneously
