@@ -2,11 +2,10 @@ My account plan demo app takes input in a number of categories about the current
 
 Built with Python and Gradio to leverage langchain libraries for llama 3.2 and openai gpt 4 functional models on my laptop.    
 
-Currently, this is a pilot that runs on my macbook pro, In the future I may add the following improvements:
+Currently, this is a pilot that runs on my macbook pro and deploys on AWS fargate, look forward to the  following improvements:
 
-1. require a login
-2. make the application multi-tenanted to allow multiple users to use it
-3. run it on the cloud
+1. require a login with AWS Cognito on AWS deployments
+2. make the application multi-tenanted to allow multiple users to use it simultaneously
 4. add additional foundation models to the application
 
 Here's a few screenshots showing how the account planning application works:

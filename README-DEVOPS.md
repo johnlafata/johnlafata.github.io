@@ -2,7 +2,11 @@ Developers want to deploy code on the cloud without concern to acquiring the inf
 
 Leveraging an Infrastructure as Code model with infrastructure deployed via GITOps.
 
-To start out, I'm building out a control plane on a minikube cluster to bootstrap a more robust dev ops process later.
-[Setup for Crossplane on minikube](./doc/devops/DEVOPS_CROSSPLANE_CONTROL_PLANE.md)
+## AWS Copilot 
+
+AWS Copilot is a command line tool that allows developers to deploy applications to AWS ECS and AWS Fargate.  It includes features to integrate with AWS CodePipeline and AWS CodeBuild to deploy applications to AWS ECS and AWS Fargate.
+
+It's pretty simple to setup a CI/CD pipeline with AWS Copilot.  See this reference:
+[AWS Copilot CI/CD](./infrastructure/aws/fargate/copilot.md#Create_CI/CD_pipeline_in_AWS_CODEPIPELINE)
 
 
