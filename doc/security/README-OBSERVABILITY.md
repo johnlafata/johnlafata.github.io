@@ -1,4 +1,6 @@
-#Observability for Gen AI applications
+# Observability for Gen AI applications
+
+
 
 Observability for GEN AI applications enables developers to gain insights into the performance and behavior of their AI models in real-time. 
 
