@@ -7,6 +7,5 @@ Leveraging an Infrastructure as Code model with infrastructure deployed via GITO
 AWS Copilot is a command line tool that allows developers to deploy applications to AWS ECS and AWS Fargate.  It includes features to integrate with AWS CodePipeline and AWS CodeBuild to deploy applications to AWS ECS and AWS Fargate.
 
 It's pretty simple to setup a CI/CD pipeline with AWS Copilot.  See this reference:
-[AWS Copilot CI/CD](./infrastructure/aws/fargate/copilot.md#Create_CI/CD_pipeline_in_AWS_CODEPIPELINE)
-
+[AWS Copilot CI/CD](./infrastructure/aws/fargate/copilot.md#create-cicd-pipeline-in-aws-codepipeline)
 
