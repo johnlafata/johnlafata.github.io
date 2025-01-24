@@ -107,8 +107,6 @@ Recommended follow-up actions:
 ```
 
 
-### TODO look for rhe IAM Roles created
-
 ## deploy the env, the --no-rollback is useful to help debug any problems if it fails, but it's optional
 
 ```
