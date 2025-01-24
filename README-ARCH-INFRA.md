@@ -16,7 +16,7 @@ Infrastructure As Code model.  Using Terraform to manage infrastructure provisio
 
 This link presents my evaluation of github hooks for [secret scanning](./doc/security/REPO-SECURITY-README.md). I'm going to use this as a starting point for protecting myself from accidentally deploying secrets or tokens to my repos.
 
-## Integrate with a secrets manager 
+## Integrate secrets to your application
 ### Building a .env File for Password Management
 
 To manage passwords and other sensitive information securely, you can use a `.env` file. This file will store your environment variables, which can then be accessed by your application.
