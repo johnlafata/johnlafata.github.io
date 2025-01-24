@@ -13,3 +13,11 @@ To configure a Spring application to use an in-memory user pool for development 
 - [Spring Security Reference - In-Memory Authentication](https://docs.spring.io/spring-security/reference/servlet/authentication/passwords/in-memory.html)
 
 These resources provide detailed instructions and examples on how to set up and configure in-memory authentication for your Spring application.
+
+### Configuring Azure AD User Pool
+
+To configure a Spring application to use a Microsoft Azure AD user pool for authentication, you can refer to the following public references:
+
+- [Microsoft Docs - Integrate Azure AD with Spring Boot](https://docs.microsoft.com/en-us/azure/developer/java/spring-framework/configure-spring-boot-starter-java-app-with-azure-active-directory)
+
+These resources provide detailed instructions and examples on how to set up and configure Azure AD authentication for your Spring application.
