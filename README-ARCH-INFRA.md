@@ -88,7 +88,7 @@ When running an application on AWS fargate, AWS Cognito and AWS Amplify help to 
 ### Securing applications with Spring Security
 [Spring Security](./tools/code/frameworks/spring-security.md) is a powerful and highly customizable authentication and access-control framework. It is the de-facto standard for securing Spring-based applications.
 
-# Tracing Gen AI Requests
+## Tracing Gen AI Requests
 To trace requests in a Gen AI application, you can use distributed tracing tools like AWS X-Ray, Jaeger, or Zipkin. These tools help you monitor and trace requests as they flow through your application, providing insights into performance, errors, and bottlenecks.
 
 Also langsmith provides a tracing tool called LlamaTrace.  LlamaTrace is a tracing tool that helps you monitor and trace requests in your Gen AI application. It provides detailed insights into request flows, performance metrics, and error tracking, enabling you to optimize your application for better performance and reliability.
