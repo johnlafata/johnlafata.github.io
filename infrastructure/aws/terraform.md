@@ -51,36 +51,3 @@ To automate the creation of an AWS Organization and subaccounts using Terraform,
 
 Note: Ensure that you have the necessary permissions to perform these actions and that you handle any errors or exceptions that may occur during the process.
 
-## Automating AWS Organization and Subaccounts with with the AWS CLI 
-
-/**
- * This script automates the creation of an AWS Organization and subaccounts.
- * 
- * Steps to automate the creation:
- * 1. **Set Up AWS CLI**: Ensure that the AWS CLI is installed and configured with the necessary permissions.
- *    - Install AWS CLI: https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html
- *    - Configure AWS CLI: `aws configure`
- * 
- * 2. **Create AWS Organization**:
- *    - Use the `create-organization` command to create a new organization.
- *    - Example: `aws organizations create-organization --feature-set ALL`
- * 
- * 3. **Create Organizational Units (OUs)**:
- *    - Use the `create-organizational-unit` command to create OUs within the organization.
- *    - Example: `aws organizations create-organizational-unit --parent-id <root-id> --name <OU-name>`
- * 
- * 4. **Create Subaccounts**:
- *    - Use the `create-account` command to create new accounts within the organization.
- *    - Example: `aws organizations create-account --email <email> --account-name <account-name>`
- * 
- * 5. **Attach Policies**:
- *    - Use the `attach-policy` command to attach policies to the organization, OUs, or accounts.
- *    - Example: `aws organizations attach-policy --target-id <target-id> --policy-id <policy-id>`
- * 
- * 6. **Verify Creation**:
- *    - Use the `list-accounts` and `list-organizational-units-for-parent` commands to verify the creation of accounts and OUs.
- *    - Example: `aws organizations list-accounts`
- * 
- * Note: Ensure that you have the necessary permissions to perform these actions and that you handle any errors or exceptions that may occur during the process.
- */
-
