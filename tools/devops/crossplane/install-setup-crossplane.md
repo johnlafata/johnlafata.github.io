@@ -1,3 +1,4 @@
+# Crossplane 
 When using Crossplane on AWS, the required IAM profile or role is typically referred to as an "IAM Role for Service Accounts" (IRSA), which allows Crossplane pods running on your EKS cluster to assume a specific AWS IAM role with the necessary permissions to manage your AWS resources within the defined scope; essentially granting Crossplane the ability to interact with AWS services on your behalf. 
 
 To start I'm going to try to run cross plane from my desktop using minikube and eventually use that to bootstrap a cloud based kubernetes supply chain.
@@ -9,27 +10,16 @@ To start I'm going to try to run cross plane from my desktop using minikube and 
 
 [aws cli](../aws-cli/install-aws-cli.md)
 
-#### create an aws organization
-TODO I'm going to create an AWS organization to manage the accounts that I create for development and testing.  I'm going to create a separate account for production.  I'm going to use the organization to manage the accounts and the permissions for the accounts.
-
-
+#### Create an aws organization
+Create an org and create create sub-accounts within that org for development and testing.  Create a separate sub-account for production.  Use the organization to manage the accounts and the permissions for the accounts.
 
 ### aws crossplane blue prints
-TODO This is a great resource for getting started with crossplane on AWS.  It's a little more involved than I want to get into right now, but I'm going to keep it around for reference.
+This is a great resource for getting started with crossplane on AWS.
 https://github.com/awslabs/crossplane-on-eks
 
 #### references:
-TODO Review the instructions to ensure they line up with this reference instead of the next one.
+Review the instructions to ensure they line up with this reference instead of the next one.
 https://docs.crossplane.io/latest/getting-started/provider-aws/
-
-TODO delete this reference after you are sure you don't need it
-https://blog.nashtechglobal.com/aws-infrastructure-using-crossplane/
-
-TODO delete this reference after you are sure you don't need it
-https://medium.com/@williamwarley/a-complete-guide-to-deploy-main-services-in-aws-with-crossplane-275d16bce4fb 
-
-TODO also review this to see if there is more involved with IAM Role for Service Accounts (IRSA) that I've not included.  This also covers automating AWS infrastructure creation with Crossplane and GitOps.
-https://www.mitiga.io/blog/automating-aws-infrastructure-creation-with-crossplane-and-gitops
 
 
 #### installing cross plane
@@ -43,18 +33,6 @@ helm install crossplane crossplane-stable/crossplane --namespace crossplane
 ### verify
 ```
 kubectl api-resources | grep crossplane
-```
-
-### TODO ???DELETE THIS???  ?? install the aws provider -  ??? missing step ???  -- I think this is installed by default
-```bash
-cat <<EOF | kubectl apply -f -
-apiVersion: pkg.crossplane.io/v1
-kind: Provider
-metadata:
-  name: provider-aws-s3
-spec:
-  package: xpkg.upbound.io/upbound/provider-aws-s3:v1.17.0
-EOF
 ```
 
 ### Create an AWS IAM Role and Policy
@@ -152,39 +130,5 @@ kubectl get bucket example-bucket -o yaml
 ### Verify that the bucket is created successfully in your AWS account.
 
 
-### delete the s3 bucket???
+### delete the s3 bucket - cleanup ( only created the bucket as a test )
 kubectl delete bucket example-bucket
-
-[ continue here ]
-
-
-
-# references
-https://docs.crossplane.io/latest/getting-started/provider-aws/
-
-https://github.com/aws/aws-sdk-go
-
-https://github.com/crossplane
-
-https://github.com/crossplane/crossplane/blob/main/design/design-doc-provider-strategy.md
-
-# DO NOT COMMIT WITHOUT SANITIZING
-Here's a blog that I think I'd like to emulate for my own blog.  It's about automating AWS infrastructure creation with Crossplane and GitOps.
-https://www.mitiga.io/blog/automating-aws-infrastructure-creation-with-crossplane-and-gitops
-
-
-https://blog.nashtechglobal.com/aws-infrastructure-using-crossplane/
-
-# this one is pretty good.  I printed it to a pdf file for posterity.
-https://medium.com/@williamwarley/a-complete-guide-to-deploy-main-services-in-aws-with-crossplane-275d16bce4fb 
-
-
-# Crossplane AWS provide (manage resources on AWS)
-https://github.com/crossplane-contrib/provider-aws/blob/master/AUTHENTICATION.md
-
-# crossplane-contrib/provider-terraform
-https://github.com/crossplane-contrib/provider-terraform
-
-# WRITE TO A GITHUB REPO WITH CROSSPLANE?
-https://github.com/crossplane-contrib/provider-github [deprecated, use following]
-https://github.com/crossplane-contrib/provider-upjet-github

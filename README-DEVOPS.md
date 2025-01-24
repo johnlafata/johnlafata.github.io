@@ -9,3 +9,9 @@ AWS Copilot is a command line tool that allows developers to deploy applications
 It's pretty simple to setup a CI/CD pipeline with AWS Copilot.  See this reference:
 [AWS Copilot CI/CD](./infrastructure/aws/fargate/copilot.md#create-cicd-pipeline-in-aws-codepipeline)
 
+
+## Dev Ops using Terraform on AWS
+[AWS Terraform](./infrastructure/aws/terraform.md)
+
+## Crossplane 
+[Crossplane](./tools/devops/crossplane/install-setup-crossplane.md)
