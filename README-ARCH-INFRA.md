@@ -30,3 +30,6 @@ When running an application on AWS fargate, AWS Cognito and AWS Amplify help to 
 ### AWS Cognito
 [AWS Cognito](./infrastructure/aws/identity/cognito.md) i
 
+### Securing applications with Spring Security
+[Spring Security](./tools/code/frameworks/spring-security.md) is a powerful and highly customizable authentication and access-control framework. It is the de-facto standard for securing Spring-based applications.
+
