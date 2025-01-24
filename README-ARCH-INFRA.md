@@ -22,7 +22,11 @@ While working on my laptop, I currently am using environment variables stored on
 ### Identity management
 When I deploy to the cloud I'd like to ensure that I have a good identity management strategy.  
 
-I'm going to start with AWS Cognito, but I'm also going to look at Okta and Auth0.  
+When running an application on AWS fargate, AWS Cognito and AWS Amplify help to setup a secure login to your application.  
 
+### AWS Amplify
+[AWS Amplify](./infrastructure/aws/identity/amplify.md) 
 
+### AWS Cognito
+[AWS Cognito](./infrastructure/aws/identity/cognito.md) i
 
