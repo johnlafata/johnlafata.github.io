@@ -9,7 +9,7 @@ Sample applications.
 [Application Development](./README-APP-SCAFFOLDING.md)
 
 ## Application Architecture and Infrastructure Management
-Notes on Infrastucture Management
+Notes on Infrastructure Management
 
 [Infrastructure Management](./README-ARCH-INFRA.md)
 
