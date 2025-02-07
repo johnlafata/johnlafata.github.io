@@ -18,11 +18,6 @@ export AWS_PROFILE=my-app
 ### Usage
 These are the basic stages to fargate deployment with AWS copilot
 
-This is a good reference: https://aosolorzano.medium.com/spring-boot-native-microservice-on-ecs-fargate-using-aws-copilot-cli-for-cross-account-deployment-73b1836f21f7
-
-This one is one that incorporates cognito
-https://aosolorzano.medium.com/implementing-a-multi-account-environment-with-aws-organizations-and-the-iam-identity-center-d1cdb40bdf4d
-
 `copilot init` to create the app
 
 `copilot svc init` to create the service
