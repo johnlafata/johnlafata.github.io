@@ -12,17 +12,17 @@ Here's a few screenshots showing how the account planning application works:
 
 1. Specify the current state of the account and update the prompt with what ever you think is useful
 
-![Account Planning App](../../images/app-inference-account-planning/1-specifyCurrentState.png)
+![Account Planning App](./runtime_images/1-specifyCurrentState.png)
 
 2. Specify Chat parameters to influence the token processing
 
-![Account Planning App](../../images/app-inference-account-planning/2-specifyChatbotParameters.png)
+![Account Planning App](./runtime_images/2-specifyChatbotParameters.png)
 
 3. submit your request
 
-![Account Planning App](../../images/app-inference-account-planning/3-submitRequest.png)
+![Account Planning App](./runtime_images/3-submitRequest.png)
 
 4. get your results
 
-![Account Planning App](../../images/app-inference-account-planning/4-getCompletionResponse.png)
+![Account Planning App](./runtime_images/4-getCompletionResponse.png)
 

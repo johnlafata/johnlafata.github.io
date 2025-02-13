@@ -2,22 +2,22 @@ This application is a basic chatbot which I'm going to use as a research assista
 
 I basically want to use the natural language processing of the chat bot to collect and structure research and build a training dataset.
 
-* I need to choose a foundation model
-* I need to do some prompt engineering to help guide the model to give answers I think are appropriate.
-* I also want to integrate the model to some research collection resources to help get more information that the model is trained for.
-* I also want to include a Vector database to store the research and to later guide the response following a Retrieval Augment Generation architecture.
+* Choose a foundation model
+* Add prompt engineering to help guide the model to give answers I think are appropriate.
+* Integrate the model to some research collection resources to help get more information that the model is trained for.
+* Include a Vector database to store the research and to later guide the response following a Retrieval Augment Generation architecture.
 
-I'm going to start with a python application based on langchain that uses Openai as a foundation model.  
+Develop a python application based on langchain that uses Openai as a foundation model.  
 
 Using langchain, I'm not limited to Openai, there are libraries for the most commonly used model providers.   
 
-I'm going to use [llama-index](#data-collection-tools) to help me collect research and training data.  I'm going to use the Arxiv and Wikipedia retrievers to help me with this.  I'm also going to use the nvidia NIM curator to help me with training data.
+Use [llama-index](#data-collection-tools) to help me collect research and training data.  Also use the Arxiv and Wikipedia retrievers and the nvidia NIM curator to aquire and filter training data.
 
 ### Initial Architecture
 
 Here's an initial high level architecture of the chatbot application I'm going to build.
 
-![KnowledgeBase application](../../images/knowledgeBase-application.png)
+![KnowledgeBase application](./architectural_images/knowledgeBase-application.png)
 
 ### data collection tools
 Get data from external sources via llama-index packages
