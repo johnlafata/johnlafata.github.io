@@ -13,11 +13,11 @@ Below are a few applications that are examples to document the exercises associa
 
 A very simple chatbot app to recommend an account plan based on metrics associated with the account.  This is a simple python app using [python](./tools/code/language/python/pyenv.md), [gradio](./tools/code/language/python/gradio.md) for a UI and [langchain](./tools/code/ai/langchain.md) to call a choice of foundation models to make account strategy recommendations.
 
-Here's a link to page where I am tracking the development progress for this application [My LLM based account planning application](./doc/applications/APP_ACCT_PLAN.md)
+Here's a link to page where I am tracking the development progress for this application [My LLM based account planning application](./doc/applications/account_planning/APP_ACCT_PLAN.md)
 
 # RAG Document processing Application
 
-A chatbot that processes RAG documents and allows the user to request analysis of the document.  This is a simple python app using gradio for a UI and langchain to call a choice of foundation models to analyze the document.   Here's a link to page where I am tracking the development progress for this application [Document Processing Application](./doc/applications/doc-processing/APP_RAG_DOCUMENT_PROCESSING.md)
+A chatbot that processes RAG documents and allows the user to request analysis of the document.  This is a simple python app using gradio for a UI and langchain to call a choice of foundation models to analyze the document.   Here's a link to page where I am tracking the development progress for this application [Document Processing Application](./doc/applications/document_processing/APP_DOC_PROCESSING.md)
 
 # Product Conversational Knowledgebase Application
 
