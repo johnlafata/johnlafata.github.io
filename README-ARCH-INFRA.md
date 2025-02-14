@@ -3,7 +3,7 @@
 ## Application Architecture
 The following presents a typical GEN AI application Architecture.
 
-![Typical Gen AI Application Architecture](images/knowledgeBase-application.png)
+![Typical Gen AI Application Architecture](images/generic-aiml-platform.png)
 
 ## Infrastructure
 This section documents the infrastructure management
