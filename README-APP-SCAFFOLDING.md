@@ -3,7 +3,7 @@
 Below are a few applications that are examples to document the exercises associated with this workspace .  When applicable, architecture documents may be included for the applications using [diagramsAsCode](./tools/architecture/diagramsAsCode.md) to help visualize the architecture.
 
 | App | Architecture | More Detail |
-| --- | --- |  --- |
+| :-- | :-- |  :-- |
 | [Account Planning App](./README-APP-SCAFFOLDING.md#account-planning-application) | [application architecture](./doc/applications/account_planning/APP_ACCT_PLAN_ARCH.md) | [application detail](./doc/applications/account_planning/APP_ACCT_PLAN.md) |
 | [RAG Document processing application](./README-APP-SCAFFOLDING.md#rag-document-processing-application) | [application architecture](./doc/applications/document_processing/APP_DOC_PROCESSING_ARCH.md) | [application detail](./doc/applications/document_processing/APP_DOC_PROCESSING.md) |
 | [Product Conversational Knowledgebase app](./README-APP-SCAFFOLDING.md#product-conversational-knowledgebase-application) | [application architecture](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE_ARCH.md) | [application detail](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE.md) |
