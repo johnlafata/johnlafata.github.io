@@ -147,31 +147,6 @@ if __name__ == '__main__':
     app.run(debug=True)
 ```
 
-This example sets up a basic Flask server with two endpoints: a GET endpoint that returns a simple message and a POST endpoint that echoes back the received JSON data.
-
-### Using Claude's Computer
-
-Claude's Computer is a versatile tool designed to enhance your interaction with AI models. Follow these steps to get started:
-
-1. **Download and Install**: Obtain the latest version of Claude's Computer from the official website. Follow the provided installation instructions for your operating system.
-
-2. **Open the Application**: Launch Claude's Computer from your applications menu or desktop shortcut.
-
-3. **Sign In**: Enter your credentials to sign in. If you don't have an account, you can create one by following the sign-up process.
-
-4. **Create a New Session**: Click on "New Session" and provide the necessary details such as session name and description.
-
-5. **Select an AI Model**: Choose the AI model you wish to use from the available options.
-
-6. **Configure Session Settings**: Adjust the settings according to your needs, including input data format, output preferences, and any specific parameters.
-
-7. **Execute the Model**: Click on "Execute" to run the model. You can monitor the progress and view the results within the application.
-
-8. **Save or Export Results**: After the model has completed its run, you can save or export the results in various formats such as CSV, JSON, or directly to a database.
-
-For more detailed instructions and advanced features, refer to the official documentation or the help section within the application.
-
-
 ### LangChain and Model Context Protocol (MCP)
 
 LangChain is a framework for developing applications powered by language models. As of now, LangChain does not natively support the Model Context Protocol (MCP). However, you can integrate MCP with LangChain by creating custom connectors and interfaces that adhere to the MCP specification.

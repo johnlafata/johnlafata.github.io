@@ -7,6 +7,9 @@ Below are a few applications that are examples to document the exercises associa
 | [Account Planning App](./README-APP-SCAFFOLDING.md#account-planning-application) | [application architecture](./doc/applications/account_planning/APP_ACCT_PLAN_ARCH.md) | [application detail](./doc/applications/account_planning/APP_ACCT_PLAN.md) |
 | [RAG Document processing application](./README-APP-SCAFFOLDING.md#rag-document-processing-application) | [application architecture](./doc/applications/document_processing/APP_DOC_PROCESSING_ARCH.md) | [application detail](./doc/applications/document_processing/APP_DOC_PROCESSING.md) |
 | [Product Conversational Knowledgebase app](./README-APP-SCAFFOLDING.md#product-conversational-knowledgebase-application) | [application architecture](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE_ARCH.md) | [application detail](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE.md) |
+| [Sample MCP connector](./README-APP-SCAFFOLDING.md#sample-mcp-connector) | "Forthcoming" | [application detail](./tools/code/ai/MCP.md) |
+| [fine tuning Medical Imaging](./README-APP-SCAFFOLDING.md#sample-tensorflow-fine-tuning-pipeline) | "Forthcoming" | [application detail](./tools/code/ai/tensorflow.md) |
+| [fine tuning Medical Imaging with huggingface model](./README-APP-SCAFFOLDING.md#sample-hugging-face-fine-tuning-pipeline) | "Forthcoming" | [application detail](./tools/code/ai/tensorflow-huggingface.md) |
 
 
 # Account Planning Application
@@ -25,3 +28,14 @@ A chatbot functioning as a research assistant on product information.  This is a
 
 Here's a link to page where I am tracking the development progress for this application [My LLM based product conversational knowledge base application](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE.md)
 
+# Sample MCP connector
+
+Here's a sample MCP connector that can be used to integrate MCP with LangChain.  This is a simple python app using Flask to create a basic API program.  Here's a link to page where I am tracking the development progress for this application [MCP Connector](./tools/code/ai/MCP.md)
+
+# Sample TensorFlow fine-tuning pipeline
+
+Here's a sample fine-tuning pipeline using TensorFlow to read files of podiatric X-rays and MRIs and create a model capable of diagnosing foot injuries.  Here's a link to page where I am tracking the development progress for this application [TensorFlow Fine-Tuning Pipeline](./tools/code/ai/tensorflow.md)
+
+# Sample Hugging Face fine-tuning pipeline
+
+Here's a sample fine-tuning pipeline using the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing foot injuries from podiatric X-rays and MRIs.  Here's a link to page where I am tracking the development progress for this application [Hugging Face Fine-Tuning Pipeline](./tools/code/ai/tensorflow-huggingface.md)
