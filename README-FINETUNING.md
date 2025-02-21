@@ -17,12 +17,12 @@ python, [langchain](./tools/code/ai/langchain.md), llama-index, nvidia NEMO Cura
 
 #### 1. training a model to diagnose foot injury from MRI images
 
-- **Model Overview**: In this pipeline, we will use the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing foot injuries from podiatric X-rays and MRIs. This model is a pre-trained autoencoder specifically designed for MRI images.
+- **Model Overview**: In this pipeline, we will use the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing injuries from X-rays and MRIs. This model is a pre-trained autoencoder specifically designed for MRI images.
 
 [./tools/code/ai/tensorflow-huggingface.md](./tools/code/ai/tensorflow-huggingface.md)
 
-#### 2. training a model to diagnose foot injury from podiatric X-rays and MRI images
+#### 2. training a model to diagnose foot injury from X-rays and MRI images
 
-- **Model Overview**: This document outlines a sample fine-tuning pipeline using TensorFlow to read files of podiatric X-rays and MRIs and create a model capable of diagnosing foot injuries.
+- **Model Overview**: This document outlines a sample fine-tuning pipeline using TensorFlow to read files of X-rays and MRIs and create a model capable of diagnosing injuries.
 
 [./tools/code/ai/tensorflow.md](./tools/code/ai/tensorflow.md)

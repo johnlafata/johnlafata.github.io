@@ -1,7 +1,7 @@
 # Fine-Tuning Pipeline for Diagnosing Foot Injury using TensorFlow
 ## Model Overview
 
-In this pipeline, we will use the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing foot injuries from podiatric X-rays and MRIs. This model is a pre-trained autoencoder specifically designed for MRI images.
+In this pipeline, we will use the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing injuries from X-rays and MRIs. This model is a pre-trained autoencoder specifically designed for MRI images.
 
 ## Step 1: Install Hugging Face Transformers
 

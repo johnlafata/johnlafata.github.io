@@ -34,8 +34,8 @@ Here's a sample MCP connector that can be used to integrate MCP with LangChain. 
 
 # Sample TensorFlow fine-tuning pipeline
 
-Here's a sample fine-tuning pipeline using TensorFlow to read files of podiatric X-rays and MRIs and create a model capable of diagnosing foot injuries.  Here's a link to page where I am tracking the development progress for this application [TensorFlow Fine-Tuning Pipeline](./tools/code/ai/tensorflow.md)
+Here's a sample fine-tuning pipeline using TensorFlow to read files of X-rays and MRIs and create a model capable of diagnosing  injuries.  Here's a link to page where I am tracking the development progress for this application [TensorFlow Fine-Tuning Pipeline](./tools/code/ai/tensorflow.md)
 
 # Sample Hugging Face fine-tuning pipeline
 
-Here's a sample fine-tuning pipeline using the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing foot injuries from podiatric X-rays and MRIs.  Here's a link to page where I am tracking the development progress for this application [Hugging Face Fine-Tuning Pipeline](./tools/code/ai/tensorflow-huggingface.md)
+Here's a sample fine-tuning pipeline using the Hugging Face model `microsoft/mri-autoencoder-v0.1` for diagnosing injuries from X-rays and MRIs.  Here's a link to page where I am tracking the development progress for this application [Hugging Face Fine-Tuning Pipeline](./tools/code/ai/tensorflow-huggingface.md)

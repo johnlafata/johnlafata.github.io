@@ -1,6 +1,6 @@
 # Fine-Tuning Pipeline for Diagnosing Foot Injury using TensorFlow
 
-This document outlines a sample fine-tuning pipeline using TensorFlow to read files of podiatric X-rays and MRIs and create a model capable of diagnosing foot injuries.
+This document outlines a sample fine-tuning pipeline using TensorFlow to read files of X-rays and MRIs and create a model capable of diagnosing injuries.
 
 ## Prerequisites
 
@@ -117,4 +117,4 @@ model.save('foot_injury_diagnosis_model.h5')
 
 ## Conclusion
 
-This pipeline provides a basic framework for fine-tuning a pre-trained model using TensorFlow to diagnose foot injuries from podiatric X-rays and MRIs. Adjust the parameters and architecture as needed for your specific dataset and requirements.
+This pipeline provides a basic framework for fine-tuning a pre-trained model using TensorFlow to diagnose injuries from X-rays and MRIs. Adjust the parameters and architecture as needed for your specific dataset and requirements.
