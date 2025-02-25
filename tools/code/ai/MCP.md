@@ -3,6 +3,14 @@
 ### Reference from Anthropic
 https://docs.anthropic.com 
 
+### Short list of Opensource MCP server sources
+- A catalogue of servers
+- https://glama.ai/mcp/servers?attributes=category%3Aversion-control
+- Another catalog
+- https://github.com/modelcontextprotocol/servers 
+- Playground
+- https://glama.ai/playground 
+
 
 ### Building an MCP Connector
 
