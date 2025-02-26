@@ -20,5 +20,13 @@ gitleaks dir -v
 gitleaks dir -v --redact=95
 ```
 
-### add a .gitleaksignore file - didn't seem to make a difference
+### add a .gitleaksignore file to accommodate false positives or files that are with the .gitignore file and wouldn't be committed.
+
+Refer to these instructions for adding a .gitleaksignore entry: 
+https://github.com/gitleaks/gitleaks/tree/master#gitleaksignore 
+
+here's an example specifying the name of the .gitleaksignore file (though this name used below is the default name and it would not be necessary to specify it in this case):
+
+```
 gitleaks dir -v -i .gitleaksignore
+```
