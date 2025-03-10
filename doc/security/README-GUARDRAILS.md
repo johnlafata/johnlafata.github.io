@@ -12,8 +12,7 @@ https://docs.nvidia.com/nemo/guardrails/introduction.html#installation
 
 ### Example Guardrail Configuration file
 
-```
-# config.yml
+```yaml
 models:
   - type: main
     engine: openai
@@ -61,10 +60,9 @@ rails:
     flows:
       - self check input
 
-# #   # Output rails are triggered after a bot message has been generated.
+# Output rails are triggered after a bot message has been generated.
   output:
     flows:
       - self check facts
       - self check hallucination
-
 ```
