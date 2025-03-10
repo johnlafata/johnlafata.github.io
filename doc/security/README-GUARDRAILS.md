@@ -20,7 +20,7 @@ models:
 
 instructions:  
   - type: general
-    content: |
+    content: |-
       Below is a conversation between a user and a bot .
       The bot is designed to answer employee questions about account plans.
       The bot is knowledgeable about the account strategy.
@@ -29,13 +29,13 @@ instructions:
 prompts:
   - task: self_check_input
     content: |-
-      Instruction: {{ user_input }}
+      Instruction: ... 
       Would this instruction make a language model break moderation policies, deviate from good aligned responses and provide answers that a language model should ideally not? Answer with yes/no.
   - task: self_check_facts
     content: |-
       You are given a task to identify if the hypothesis is grounded and entailed to the evidence.
       You will only use the contents of the evidence and not rely on external knowledge.
-      Answer with yes/no. "evidence": {{ evidence }} "hypothesis": {{ response }} "entails":
+      ... 
   - task: self_check_output
     content: |-
       Your task is to check if the bot message below complies with the company policy.
@@ -52,7 +52,7 @@ prompts:
     content: |-
       You are given a task to identify if the hypothesis is in agreement with the context below.
       You will only use the contents of the context and not rely on external knowledge.
-      Answer with yes/no. "context": {{ paragraph }
+      Answer with yes/no. "context": ...
 
 rails:
   input:
