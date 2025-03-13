@@ -14,6 +14,10 @@ This repo presents work undertaken to identify and document best practices for d
 
 [GEN AI Application Infrastructure](./README-ARCH-INFRA.md)
 
+### 2025-01-13 Some high level thoughts on DevOps
+
+[DevOps](./README-DEVOPS.md)
+
 ### 2023-03-13 Enterprise Infrastructure As a Service Implementation thoughts
 
 [Enterprise Infrastructure as a Service project](./doc/devops/DevSecOps-scalableCICD-2023-03-13.md)
