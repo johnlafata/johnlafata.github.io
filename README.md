@@ -1,4 +1,4 @@
-# blog
+# Blog
 
 This repo presents work undertaken to identify and document best practices for developing, deploying, and managing enterprise applications.  The goal is to provide project templates or scaffolding to expedite development projects.
 
