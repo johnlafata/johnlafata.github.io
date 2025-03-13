@@ -5,12 +5,6 @@ The following presents a typical GEN AI application Architecture.
 
 ![Typical Gen AI Application Architecture](images/generic-aiml-platform.png)
 
-## Infrastructure
-This section documents the infrastructure management
-
-Infrastructure As Code model.  Using Terraform to manage infrastructure provisioned on AWS lambda, AWS API Gateway and AWS Fargate.
-
-
 ## Baseline Development Infrastructure
 ### Repo Security
 
@@ -77,13 +71,11 @@ For more details, refer to the [AWS Copilot documentation](https://aws.github.io
 ## Identity management
 When I deploy to the cloud I'd like to ensure that I have a good identity management strategy.  
 
-When running an application on AWS fargate, AWS Cognito and AWS Amplify help to setup a secure login to your application.  
-
-### AWS Amplify
-[AWS Amplify](./infrastructure/aws/identity/amplify.md) 
+When running an application on AWS Fargate use AWS Cognito and AWS Copilot to requisition the deployment infrastructure, deploy the application and setup a secure login to your application.     [ More detail to come later on this topic]
 
 ### AWS Cognito
 [AWS Cognito](./infrastructure/aws/identity/cognito.md)
+
 
 ### Securing applications with Spring Security
 [Spring Security](./tools/code/frameworks/spring-security.md) is a powerful and highly customizable authentication and access-control framework. It is the de-facto standard for securing Spring-based applications.

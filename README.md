@@ -1,27 +1,22 @@
-# Gen AI Accelerator Studio
-This repo presents tasks undertaken to identify and document best practices for developing, deploying, and managing Gen AI applications.  The goal is to provide project templates or scaffolding to expedite development projects.
+# blog
 
-This repo will present templates for real-world use cases for Gen AI applications.  
+This repo presents work undertaken to identify and document best practices for developing, deploying, and managing enterprise applications.  The goal is to provide project templates or scaffolding to expedite development projects.
 
-## Application Scaffolding
-Sample applications.
+### 2025-02-27 Using AWS Copilot to deploy to Fargate using Amazon Cognito for authentication. 
 
-[Application Development](./README-APP-SCAFFOLDING.md)
+[Secure AWS Fargate Deployment](https://github.com/johnlafata/aws-cognito-fargate-copilot)
 
-## Application Architecture and Infrastructure Management
-Notes on Infrastructure Management
+### 2025-02-13 Retrieval-Augmented Generation (RAG) Cookbook
 
-[Infrastructure Management](./README-ARCH-INFRA.md)
+[RAG Application cookbook](./README-APP-SCAFFOLDING.md)
 
-## DevOps
-Here are some notes on the application deployment tests I am working on. 
+### 2025-02-13 Typical Gen AI application architecture and application infrastructure
 
-[DevOps](./README-DEVOPS.md)
+[GEN AI Application Infrastructure](./README-ARCH-INFRA.md)
 
-## Security
-Notes on Security related topics.
+### 2023-03-13 Enterprise Infrastructure As a Service Implementation thoughts
 
-[Security](./README-SECURITY.md)
+[Enterprise Infrastructure as a Service project](./doc/devops/DevSecOps-scalableCICD-2023-03-13.md)
 
 
 
