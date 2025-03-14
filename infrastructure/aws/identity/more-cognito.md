@@ -3,23 +3,19 @@ title: "Additional resources for securing AWS Fargate deployed application with 
 tags: ["AWS Fargate", "Amazon Copilot", "AWS Cognito"]
 ---
 
-# TODO merge my notes from apple notes to this document and make it a complete document
-# TODO add the notes from the medium articles to this document
+# More on IDP with Cognito
+- Choose an authentication flow.  [   For a deeper dive into configuration Amazon Cognito - this reference would be good ]
+- https://docs.aws.amazon.com/prescriptive-guidance/latest/patterns/choose-an-amazon-cognito-authentication-flow-for-enterprise-applications.html 
 
-[combine with this](../fargate/deploying-apps-to-fargate.md)
+# instructions for using google as idp
+- https://docs.aws.amazon.com/cognito/latest/developerguide/google.html 
+
+# instructions for using Facebook as idp
+
+# instructions for using github oidc as idp
+
+# create a custom login page that allows the user to choose how they want to authenticate
+- page also has some branding
 
 
-https://aosolorzano.medium.com/implementing-a-multi-account-environment-with-aws-organizations-and-the-iam-identity-center-d1cdb40bdf4d 
-
-https://aosolorzano.medium.com/spring-boot-native-microservice-on-ecs-fargate-using-aws-copilot-cli-for-cross-account-deployment-73b1836f21f7
-
-# cognito cloudformation template
-https://medium.com/@alibinfarooq9/building-a-secure-user-authentication-system-with-aws-cognito-and-cloudformation-652a1a5db26a
-
-
-https://aws.github.io/copilot-cli/docs/manifest/environment/
-
-https://aws.github.io/copilot-cli/docs/developing/addons/environment/
-
-https://aws.github.io/copilot-cli/blogs/release-v125/
 
