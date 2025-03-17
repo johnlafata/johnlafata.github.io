@@ -5,6 +5,7 @@
 - AWS CLI installed
 - Docker Desktop installed
 - AWS copilot installed
+  - https://github.com/aws/copilot-cli?tab=readme-ov-file#installation
 - non root account AWS_ACCESS_KEY and AWS_ACCESS_KEY_SECRET in AWS Profile
   - instructions: https://docs.aws.amazon.com/IAM/latest/UserGuide/id_root-user.html 
   - for example: create an alternate IAM user via the console, 
