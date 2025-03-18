@@ -1,8 +1,11 @@
-configure minikube
-Reference:
+# configure minikube
+
+## Reference:
 https://darkowlzz.github.io/post/minikube-config/
 
-vi ~/.minikube/config/config.json
+
+# Minikube Configuration
+`vi ~/.minikube/config/config.json`
 
 ```
 {
@@ -19,4 +22,4 @@ or at runtime
 
 verify
 
-`minikube config view vm-driver`
+`minikube config view`
