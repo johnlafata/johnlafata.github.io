@@ -164,7 +164,6 @@ For enhanced security:
 - Use private registry authentication
 
 ### build a container image using Azure DevOps
-### build a container image using Azure DevOps
 Create an `azure-pipelines.yml` in your repository:
 ```yaml
 trigger:

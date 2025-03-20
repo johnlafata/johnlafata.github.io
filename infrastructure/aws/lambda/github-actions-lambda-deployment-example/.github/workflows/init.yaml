@@ -1,0 +1,14 @@
+
+name: Build Docker Image
+on: [push]
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v4
+            - name: Build and push
+              uses: docker/build-push-action@v5
+              with:
+                  context: .
+                  push: false
+                  tags: hello-world:latest
