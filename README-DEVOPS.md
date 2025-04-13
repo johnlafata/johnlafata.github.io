@@ -14,4 +14,4 @@ It's pretty simple to setup a CI/CD pipeline with AWS Copilot.  See this referen
 [AWS Terraform](./infrastructure/aws/terraform.md)
 
 ## Crossplane 
-[Crossplane](./tools/devops/crossplane/install-setup-crossplane.md)
+[Crossplane](./tools/devops/crossplane/bootstrapping-for-aws.md)
