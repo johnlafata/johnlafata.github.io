@@ -9,13 +9,6 @@ Code
 
 ### Prepare OpenAPI Specification:
 
-Ensure you have a valid OpenAPI specification file (e.g., openapi.yaml or openapi.json).
-Generate FastAPI Code:
-Use the openapi-to-fastapi command-line tool or library to generate the FastAPI code.
-Using the command-line tool:
-Code
-```
-     openapi-to-fastapi --input openapi.yaml --output app.py
-```
+Ensure you have a valid OpenAPI specification file (e.g., openapi.yaml or openapi.json), then reference this page to see how to use the openapi-to-fastapi library to generate FastAPI code from an OpenAPI specification file.
 
-This command will generate a FastAPI application in app.py based on the openapi.yaml specification. Using as a library.
+https://pypi.org/project/openapi-to-fastapi/

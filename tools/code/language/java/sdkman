@@ -1,0 +1,16 @@
+
+## reference: https://sdkman.io/install/
+## install sdkman
+```
+curl -s "https://get.sdkman.io" | bash
+```
+
+## run sdk man
+```
+sdk
+```
+
+## example usage
+sdk list java
+sdk install java 11.0.2-open
+sdk use java 11.0.2-open
