@@ -2,7 +2,7 @@
 When using Crossplane on AWS, the required IAM profile or role is typically referred to as an "IAM Role for Service Accounts" (IRSA), which allows Crossplane pods running on your EKS cluster to assume a specific AWS IAM role with the necessary permissions to manage your AWS resources within the defined scope; essentially granting Crossplane the ability to interact with AWS services on your behalf. 
 
 To start I'm going to try to run cross plane from my desktop using minikube and eventually use that to bootstrap a cloud based kubernetes supply chain.
-[create a minikube cluster](../../infrastructure/k8s/minikube/gettingStarted-minikube.md)
+[create a minikube cluster](../../../../infrastructure/k8s/minikube/gettingStarted-minikube.md)
 
 #### prerequisites
 
