@@ -11,7 +11,7 @@ Users can also request deployment on AWS Fargate.   AWS Fargate deployment lever
 
 * User adds requests to the configuration management database
 * User Specifies whether they want capacity or consumption based resources (leveraging * cloud platforms on demand)
-* If it's capacity IaaC tools using vRealize acquire resources and point the user toward them
+* If the user is requesting compute capacity, IaaC tools using vRealize acquire resources and point the user toward them
 * If the user requested a consumption based deployment, the user specifies the github repository for the project they want to deploy
     * User specifies the target environment for the project: possible choices on prem k8s, AWS k8s or ECS, Azure
     * Specify if the project is ephemeral or can use lower priority resources? 
