@@ -1,0 +1,1 @@
+https://github.com/Tanzu-Solutions-Engineering/tanzu-workstation-setup/blob/main/Linux.md

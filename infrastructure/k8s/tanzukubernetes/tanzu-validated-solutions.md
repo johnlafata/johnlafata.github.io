@@ -1,0 +1,1 @@
+https://github.com/vmware-tanzu-labs/tanzu-validated-solutions/blob/main/src/reference-designs/tko-on-azure.md
