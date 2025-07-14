@@ -14,8 +14,9 @@ kind get clusters
 $ ssh ubuntu@192.168.86.23
 ## how to install??? 
 ```bash
-brew install kind` again?
+brew install kind
 ```
+
 
 # create cluster 
 ```bash
@@ -41,4 +42,9 @@ $ kind get kubeconfig >~/.kube/config
 Or
 $ kind get kubeconfig >>~/.kube/config
 $ k config use-context kind-kind
+```
+
+# create cluster with custom config
+```bash
+kind create cluster --config kind-cluster-config.yaml
 ```

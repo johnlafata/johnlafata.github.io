@@ -57,3 +57,8 @@ minikube kubectl
 
 minikube start  --cpus='4'   --memory=12200MB
 ```
+
+to use certs for harbor self-signed registry certs
+```
+minikube start --embed-certs
+```
