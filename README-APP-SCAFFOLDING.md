@@ -8,8 +8,6 @@ Below are a few applications that are examples to document the exercises associa
 | [RAG Document processing application](./README-APP-SCAFFOLDING.md#rag-document-processing-application) | [application architecture](./doc/applications/document_processing/APP_DOC_PROCESSING_ARCH.md) | [application detail](./doc/applications/document_processing/APP_DOC_PROCESSING.md) |
 | [Product Conversational Knowledgebase app](./README-APP-SCAFFOLDING.md#product-conversational-knowledgebase-application) | [application architecture](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE_ARCH.md) | [application detail](./doc/applications/product_conversational_knowledge/APP_PROD_CONV_KNOWLEDGE.md) |
 | [Sample MCP connector](./README-APP-SCAFFOLDING.md#sample-mcp-connector) | "Forthcoming" | [application detail](./tools/code/ai/MCP.md) |
-| [Fine tuning Medical Imaging](./README-APP-SCAFFOLDING.md#sample-tensorflow-fine-tuning-pipeline) | "Forthcoming" | [application detail](./tools/code/ai/tensorflow.md) |
-| [Fine tuning Medical Imaging with huggingface model](./README-APP-SCAFFOLDING.md#sample-hugging-face-fine-tuning-pipeline) | "Forthcoming" | [application detail](./tools/code/ai/tensorflow-huggingface.md) |
 
 
 # Account Planning Application
