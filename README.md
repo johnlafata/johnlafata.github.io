@@ -2,6 +2,12 @@
 
 This repo presents work undertaken to identify and document best practices for developing, deploying, and managing enterprise applications.  The goal is to provide project templates or scaffolding to expedite development projects.
 
+### 2025-10-10 Exploring Vibe-Coding with GitHub Copilot's Multi-Model Approach
+[Exploring Vibe-Coding with GitHub Copilot's Multi-Model Approach](./tools/code/ai/vibe-coding/vibe-coding-anthropic-2025-10-10.md)
+
+### 2025-09-24 Deploying Letta on AWS Fargate
+[Deploying Letta on AWS Fargate](./tools/code/frameworks/letta/blog-post-2025-09-24.md)
+
 ### 2025-07-06 Review the Pre-requisites for On-premises Kubernetes with vSphere kubernetes service (VKS)
 [Pre-requisites for On-premises Kubernetes with VKS](./infrastructure/k8s/tanzukubernetes/1.README-VKS-PREREQS.md)
 
