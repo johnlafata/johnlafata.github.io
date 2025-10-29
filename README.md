@@ -2,6 +2,9 @@
 
 This repo presents work undertaken to identify and document best practices for developing, deploying, and managing enterprise applications.  The goal is to provide project templates or scaffolding to expedite development projects.
 
+### 2025-10-29 virtualizing gpu resources using Linux with KVM
+[Hosting a GPU in a hypervisor using Linux with KVM](./infrastructure/virtualizing-gpu.md)
+
 ### 2025-10-10 Exploring Vibe-Coding with GitHub Copilot's Multi-Model Approach
 [Exploring Vibe-Coding with GitHub Copilot's Multi-Model Approach](./tools/code/ai/vibe-coding/vibe-coding-anthropic-2025-10-10.md)
 
