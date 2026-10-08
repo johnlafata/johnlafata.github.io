@@ -1,5 +1,5 @@
 # John LaFata
-**Advisory Consultant** — Cloud Platform Engineering · AI-Assisted Operations · AI solutions developmnt
+**Technology Consultant** — Cloud Platform Engineering · AI-Assisted Operations · AI solutions development
 
 Over 20+ years architecting, operating and modernizing enterprise application platforms for Fortune 50 and public-sector organizations — most recently at Pivotal, VMware and Broadcom, and now as founder of [4th Quarter Labs](https://4thquarterlabs-inc.com). I set platform strategy with executive stakeholders, then make it real: private, hybrid and public cloud platforms run as products, with self-service onboarding, config-as-code, keyless delivery and tested disaster recovery — increasingly operated through AI-assisted automation under real guardrails.
 
