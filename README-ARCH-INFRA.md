@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Application Architecture and Infrastructure Management"
+---
+
 # Application Architecture and Infrastructure Management
 
 ## Application Architecture

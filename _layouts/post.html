@@ -1,0 +1,22 @@
+---
+layout: default
+---
+{% assign primary_tag = page.tags[0] %}
+{% assign meta = site.data.tags[primary_tag] %}
+{% assign tag_color = meta.color | default: "#6b7280" %}
+<article class="post-page" style="--tag-color: {{ tag_color }};">
+  <p class="back-link"><a href="{{ '/' | relative_url }}#field-notes">&larr; Back to Field Notes</a></p>
+  <header class="post-header">
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%b %-d, %Y" }}</time>
+      <div class="card-tags">
+        {% for tag in page.tags %}
+          {% assign tmeta = site.data.tags[tag] %}
+          <span class="tag" style="--tag-color: {{ tmeta.color | default: '#6b7280' }};">{{ tag }}</span>
+        {% endfor %}
+      </div>
+    </div>
+    <h1>{{ page.title }}</h1>
+  </header>
+  <div class="prose">{{ content }}</div>
+</article>

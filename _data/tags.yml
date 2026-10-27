@@ -1,0 +1,11 @@
+Kubernetes: { color: "#3b6fe0", glyph: "K8s" }
+AWS: { color: "#d97b29", glyph: "AWS" }
+AI: { color: "#8457e0", glyph: "AI" }
+GPU: { color: "#c23b7a", glyph: "GPU" }
+RAG: { color: "#a855f7", glyph: "RAG" }
+DevOps: { color: "#1f9c8f", glyph: "Ops" }
+VMware: { color: "#2f8fae", glyph: "VMw" }
+Security: { color: "#d14b4b", glyph: "Sec" }
+Platform: { color: "#3f9142", glyph: "Plt" }
+Virtualization: { color: "#9a6b1f", glyph: "KVM" }
+Developer Experience: { color: "#5b6577", glyph: "DX" }

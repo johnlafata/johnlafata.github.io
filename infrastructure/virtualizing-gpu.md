@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Hosting a GPU in a Hypervisor Using Linux with KVM"
+---
+
 ## Hosting a GPU in a hypervisor using Linux with KVM
 
 When deploying GPUs in hypervisors using Linux with KVM (Kernel-based Virtual Machine), several advantages arise that enhance the performance, scalability, and flexibility of virtualized environments. Below is a summary of key points from the NVIDIA vGPU release notes for Linux with KVM, followed by the benefits of deploying GPUs in such setups.

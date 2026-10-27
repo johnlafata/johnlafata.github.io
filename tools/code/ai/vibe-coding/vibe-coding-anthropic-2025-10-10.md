@@ -1,3 +1,8 @@
+---
+layout: page
+title: "My Journey with Vibe-Coding"
+---
+
 # My Journey with Vibe-Coding: Why GitHub Copilot Became My Go-To Development Partner
 
 A practical exploration of AI-assisted development and why GitHub Copilot's multi-model approach offers the best value for pair programming

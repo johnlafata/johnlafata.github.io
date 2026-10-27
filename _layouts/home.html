@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section class="hero">
+  <h1>{{ page.title }}</h1>
+  {% if page.tagline %}<p class="tagline">{{ page.tagline }}</p>{% endif %}
+  <div class="prose">{{ content }}</div>
+</section>
+
+<section class="field-notes" id="field-notes">
+  <h2>Field Notes</h2>
+  <div class="card-grid">
+    {% for post in site.posts %}
+      {% include post-card.html post=post %}
+    {% endfor %}
+  </div>
+</section>

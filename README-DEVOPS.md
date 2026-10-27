@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Some High-Level Thoughts on DevOps"
+---
+
 Developers want to deploy code on the cloud without concern to acquiring the infrastructure every time they create a new project.   This is a major benefit to Cloud and serverless technologies.  Serverless technologies also also allow developers to scale applications to Zero to reduce worries about wasting the underlying infrastructure cost when there is no user activity and to scale up when there is user activity.
 
 Leveraging an Infrastructure as Code model with infrastructure deployed via GITOps.

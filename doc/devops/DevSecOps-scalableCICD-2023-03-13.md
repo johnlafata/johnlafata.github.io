@@ -1,3 +1,8 @@
+---
+layout: page
+title: "Enterprise Infrastructure as a Service Project"
+---
+
 # Enterprise Infrastructure as a Service project
 
 ## Introduction

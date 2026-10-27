@@ -1,3 +1,8 @@
+---
+layout: page
+title: "RAG Application Cookbook"
+---
+
 # RAG Application Cookbook
 
 Below are a few applications that are examples to document the exercises associated with this workspace .  When applicable, architecture documents may be included for the applications using [diagramsAsCode](./tools/architecture/diagramsAsCode.md) to help visualize the architecture.
