@@ -9,3 +9,6 @@ Security: { color: "#d14b4b", glyph: "Sec" }
 Platform: { color: "#3f9142", glyph: "Plt" }
 Virtualization: { color: "#9a6b1f", glyph: "KVM" }
 Developer Experience: { color: "#5b6577", glyph: "DX" }
+Terraform: { color: "#7b42bc", glyph: "TF" }
+NSX: { color: "#46629e", glyph: "NSX" }
+VKS: { color: "#167a6e", glyph: "VKS" }

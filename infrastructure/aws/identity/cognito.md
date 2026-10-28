@@ -1,7 +1,7 @@
 # AWS Cognito
-AWS Cognito is a service that allows developers to quickly add user sign-up, sign-in, and access control to web and mobile applications. It provides secure and scalable customer identity and access management, supports customization without extensive coding, and enables seamless access to AWS services. Additionally, it offers advanced security features for sign-up and sign-in processes, making it suitable for various authentication needs.
+AWS Cognito is a service that allows developers to quickly add user sign-up, sign-in, and access control to web and mobile applications. It provides secure and scalable user identity and access management, supports customization without extensive coding, and enables seamless access to AWS services. Additionally, it offers advanced security features for sign-up and sign-in processes, making it suitable for various authentication needs.
 
-Amazon Cognito can be utilized to secure an application deployed on AWS Fargate by providing secure and scalable customer identity and access management. It offers features such as secure login with social identity providers, passwordless login options, and advanced security measures like risk-based adaptive authentication. Additionally, Amazon Cognito allows for seamless integration with AWS services, enabling role-based access control to resources like Amazon DynamoDB, Amazon S3, and AWS Lambda.
+Amazon Cognito can be utilized to secure an application deployed on AWS Fargate by providing secure and scalable user identity and access management. It offers features such as secure login with social identity providers, passwordless login options, and advanced security measures like risk-based adaptive authentication. Additionally, Amazon Cognito allows for seamless integration with AWS services, enabling role-based access control to resources like Amazon DynamoDB, Amazon S3, and AWS Lambda.
 
 ### Reference
 https://aws.amazon.com/cognito/
