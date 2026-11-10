@@ -218,6 +218,48 @@ main {
   padding: var(--space-md);
 }
 
+/* Series disclaimer (e.g. homelab posts) */
+.prose aside.series-disclaimer {
+  background: var(--bg-subtle);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--text-subtle);
+  border-radius: var(--radius);
+  padding: var(--space-sm) var(--space-md);
+  margin: 0 0 var(--space-lg);
+}
+
+.prose aside.series-disclaimer::before {
+  content: "Note";
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--text-subtle);
+  margin-bottom: 0.4rem;
+}
+
+.prose aside.series-disclaimer p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--text-subtle);
+}
+
+.prose aside.series-disclaimer p strong {
+  color: var(--text);
+}
+
+.prose aside.series-disclaimer a {
+  color: var(--text-subtle);
+  text-decoration: underline;
+  text-decoration-color: color-mix(in srgb, var(--text-subtle) 50%, transparent);
+  text-underline-offset: 2px;
+}
+
+.prose aside.series-disclaimer a:hover {
+  color: var(--accent-strong);
+}
+
 /* ------------------------------------------------------------------ */
 /* Field notes section + card grid                                     */
 /* ------------------------------------------------------------------ */
